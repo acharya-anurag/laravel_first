@@ -1,4 +1,9 @@
 <?php
+/*
+View::composer('stats', function ($view){
+    $view->with('stats', app('App\Stats'));
+});*/
+
 
 /*
 |--------------------------------------------------------------------------
@@ -11,6 +16,10 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function (){
     return view('welcome');
+});
+
+Route::get('other', function (){
+    return view('other');
 });

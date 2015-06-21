@@ -44,9 +44,12 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5 Anurag</div>
+                <div class="title">Laravel 5 - Acharya Anurag</div>
                 <div class="quote">{{ Inspiring::quote() }}</div>
             </div>
+
+            @include('stats')
+
         </div>
     </body>
 </html>
