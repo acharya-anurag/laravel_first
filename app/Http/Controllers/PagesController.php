@@ -13,6 +13,8 @@ class PagesController extends Controller
         $first = 'Anurag';
         $last = 'Acharya';
 
+        // Use compact function of PHP! 
+
         return view('pages.about',compact('first','last'));
     }
     
