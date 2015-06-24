@@ -1,9 +1,4 @@
 <?php
-/*
-View::composer('stats', function ($view){
-    $view->with('stats', app('App\Stats'));
-});*/
-
 
 /*
 |--------------------------------------------------------------------------
@@ -21,5 +16,9 @@ Route::get('/', function (){
 });
 
 Route::get('other', function (){
-    return view('other');
+    return view('pages.other');
 });
+
+
+Route::get('about','PagesController@about');
+
