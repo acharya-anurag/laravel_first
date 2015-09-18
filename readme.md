@@ -1,4 +1,7 @@
-First try at Laravel. - Acharya Anurag :)
+Laravel First Try
+--------------------------
+
+Trying my hand at Laravel. There is nothing useful here, just learning Laravel!
 
 ---
 
